@@ -4,8 +4,10 @@ document.addEventListener('DOMContentLoaded', () =>  {
     const resultDisplay = document.getElementById('result')
     let squares = []
     const width = 4
+    //set the width 
     let score = 0
-  
+  // curretn score
+    
     //create the playing board
     function createBoard() {
       for (let i=0; i < width*width; i++) {
